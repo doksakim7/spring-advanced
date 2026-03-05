@@ -44,8 +44,10 @@ Spring Boot 기반의 3-Layer Architecture(Controller–Service–Repository)를
 <img width="565" height="672" alt="스크린샷 2026-03-05 오후 7 40 52" src="https://github.com/user-attachments/assets/39e4337d-1314-4e66-b920-8a8a8acbf637" />
 
 
-## 라이선스
-- This project is licensed under the MIT License - see the LICENSE file for details.
+## 원본 출처 및 라이선스
+이 프로젝트는 [f-api/spring-advanced](https://github.com/f-api/spring-advanced) 리포지토리를 포크하여 수정한 것입니다.  
+MIT 라이선스는 본 리포지토리에서 이루어진 수정 및 추가 코드에 적용됩니다.  
+원본 프로젝트의 저작권 및 라이선스는 원저작자에게 있습니다.
 
 
 ## ⚙️ application.yml 설정
