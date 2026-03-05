@@ -12,6 +12,7 @@ import java.util.Optional;
 
 public interface TodoRepository extends JpaRepository<Todo, Long> {
 
+    // Page에서는 Fetch Join로 인해 row 중복 발생 가능하므로 EntityGraph로 수정
     @EntityGraph(attributePaths = {"user"})
     Page<Todo> findAllByOrderByModifiedAtDesc(Pageable pageable);
 

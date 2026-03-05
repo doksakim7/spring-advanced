@@ -45,7 +45,7 @@ class CommentServiceTest {
 
         // when
         InvalidRequestException exception = assertThrows(InvalidRequestException.class, () -> {
-            commentService.saveComment(authUser, todoId, request);
+            commentService.saveComment(authUser, todoId, request); // ServerException을 InvalidRequestException로 수정
         });
 
         // then

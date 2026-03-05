@@ -14,6 +14,7 @@ import java.util.List;
  * Time: 오전 9:21
  **/
 
+// ArgumentResolver 등록 문제 해결
 @Configuration
 public class WebConfig implements WebMvcConfigurer {
 
