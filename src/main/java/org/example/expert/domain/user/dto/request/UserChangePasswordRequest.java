@@ -15,7 +15,7 @@ public class UserChangePasswordRequest {
     @NotBlank
     private String oldPassword;
 
-    // 서비스에서 dto로 책임 이동
+    // 서비스에서 dto로 책임 이동(Validation)
     @NotBlank
     @Size(min = 8, message = "비밀번호는 8자 이상이어야 합니다.")
     @Pattern(
